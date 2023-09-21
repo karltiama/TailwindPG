@@ -5,11 +5,15 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <section>
+      <div className='layout'>
+        <h1>Content</h1>
+      </div>
+    </section>
     </>
   )
 }
 
 export default App
+
+
