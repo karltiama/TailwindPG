@@ -1,19 +1,13 @@
-import { useState } from 'react'
+import Card from './components/Card'
+import Layout from './components/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <section>
-      <div className='layout'>
-        <h1>Content</h1>
-      </div>
-    </section>
-    </>
+    <Layout>
+      <Card/>
+    </Layout>
   )
 }
 
 export default App
-
-
